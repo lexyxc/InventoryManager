@@ -1,0 +1,15 @@
+# Ignore Visual Studio temporary files, build results, and
+# other files that shouldn't be committed to version control.
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# Ignore build outputs
+[Bb]in/
+[Oo]bj/
+
+# Ignore any other temporary files
+*.log
