@@ -39,6 +39,7 @@ jobs:
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
+          dotnet-version: '8.0.303'
           java-version: 17
           distribution: 'zulu' # Alternative distribution options are available.
       - uses: actions/checkout@v4
